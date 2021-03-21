@@ -17,7 +17,7 @@ flexibility over configuration of sockets.
 
 See the [API documentation] for more.
 
-[API documentation]: https://docs.rs/socket2
+[API documentation]: https://dust.codes/socket2
 
 # Two branches
 
