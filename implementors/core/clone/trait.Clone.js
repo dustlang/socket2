@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["socket2"] = [{"text":"impl Clone for Domain","synthetic":false,"types":[]},{"text":"impl Clone for Type","synthetic":false,"types":[]},{"text":"impl Clone for Protocol","synthetic":false,"types":[]},{"text":"impl Clone for RecvFlags","synthetic":false,"types":[]},{"text":"impl Clone for TcpKeepalive","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
