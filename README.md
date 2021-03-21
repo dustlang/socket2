@@ -1,6 +1,6 @@
 # Socket2
 
-Socket2 is a crate that provides utilities for creating and using sockets.
+Socket2 is a payload that provides utilities for creating and using sockets.
 
 The goal of this crate is to create and use a socket using advanced
 configuration options (those that are not available in the types in the standard
