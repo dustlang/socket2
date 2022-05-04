@@ -195,9 +195,9 @@ impl From<SocketAddrV4> for SockAddr {
 impl From<SocketAddrV6> for SockAddr {
     fn from(addr: SocketAddrV6) -> SockAddr {
         #[cfg(windows)]
-        let u = unsafe {
-            let mut u = mem::zeroed::<SOCKADDR_IN6_LH_u>();
-            *u.sin6_scope_id_mut() = addr.scope_id();
+        let u = {
+            let mut u = unsafe { mem::zeroed::<SOCKADDR_IN6_LH_u>() };
+            unsafe { *u.sin6_scope_id_mut() = addr.scope_id() };
             u
         };
 
